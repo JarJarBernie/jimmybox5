@@ -1,6 +1,6 @@
 ![alt tag](https://raw.githubusercontent.com/JarJarBernie/jimmybox5/master/public/src/jimmybox.png)
 
-# jimmybox 1.0: PHP 5.6 developer box
+# jimmybox5 1.0: PHP 5.6 developer box
 vagrant box for PHP Developers with IonCube and Zend Guard Loader for professional E-Commerce development. Works with many applications and frameworks such as Oxid, Magento, Wordpress, Typo3 or Laravel 5.3.
 
 ## Quick Setup:
