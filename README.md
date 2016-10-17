@@ -1,4 +1,4 @@
-![alt tag](https://raw.githubusercontent.com/JarJarBernie/jimmybox/master/public/src/jimmybox.png)
+![alt tag](https://raw.githubusercontent.com/JarJarBernie/jimmybox5/master/public/src/jimmybox.png)
 
 # jimmybox 1.0: PHP 5.6 developer box
 vagrant box for PHP Developers with IonCube and Zend Guard Loader for professional E-Commerce development. Works with many applications and frameworks such as Oxid, Magento, Wordpress, Typo3 or Laravel 5.3.
@@ -16,7 +16,7 @@ vagrant box for PHP Developers with IonCube and Zend Guard Loader for profession
 
 ## Made for PHP professionals and E-Commerce developers
 
-Works out of the box with Oxid EE/PE, Shopware PE. Comes with Zend Guard Loader and IonCube Loader
+Works out of the box with Oxid EE/PE, Shopware PE. Comes with Zend Guard Loader and IonCube Loader.
 
 ##### Performance: Try NFS share instead of the synced folder. Just uncomment in your Vagrantfile
 
@@ -36,9 +36,10 @@ Works out of the box with Oxid EE/PE, Shopware PE. Comes with Zend Guard Loader 
 
 ## Features
 - Ubuntu 14.04 LTS (Trusty Tahr)
-- PHP 7.0.12
+- PHP 5.6.23
 - MySQL 5.7
 - IonCube Loader
+- Zend Guard Loader
 - Ruby 2.2.x
 - Vim
 - Git
