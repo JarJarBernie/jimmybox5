@@ -1,6 +1,6 @@
 ![alt tag](https://raw.githubusercontent.com/JarJarBernie/jimmybox5/master/public/src/jimmybox.png)
 
-# jimmybox5 1.0.1: PHP 5.6 developer box
+# jimmybox5 1.0.2: PHP 5.6 developer box
 vagrant box for PHP Developers with IonCube and Zend Guard Loader for professional E-Commerce development. Works with many applications and frameworks such as Oxid, Magento, Wordpress, Typo3 or Laravel 5.3.
 
 ## Quick Setup:
@@ -64,3 +64,12 @@ Works out of the box with Oxid EE/PE, Shopware PE. Comes with Zend Guard Loader 
 
 ## All features are based on scotch/box:
 https://github.com/scotch-io/scotch-box
+
+## Changes in 1.0.2
+disabled the strict mode of MySQL 5.7. You need to use strict mode?
+
+```bash
+vagrant ssh
+sudo rm /etc/mysql/conf.d/disable_strict_mode.cnf
+sudo service mysql restart
+```
