@@ -3,6 +3,9 @@
 # jimmybox5 1.0.2: PHP 5.6 developer box
 vagrant box for PHP Developers with IonCube and Zend Guard Loader for professional E-Commerce development. Works with many applications and frameworks such as Oxid, Magento, Wordpress, Typo3 or Laravel 5.3.
 
+# Need multiple PHP Versions?
+If you need other PHP Versions than 5.6 you should use https://github.com/JarJarBernie/jimmybox
+
 ## Quick Setup:
 1) Get the latest Versions of Vagrant and Virtual Box
 
